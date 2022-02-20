@@ -1,0 +1,20 @@
+intentEvents:
+- handler:
+    staticPrompt:
+      candidates:
+      - promptResponse:
+          firstSimple:
+            variants:
+            - speech: 16:00, 16:15, 16:30, 16:45, 17:00, 17:15, 17:30, 19:00, 21:00
+  intent: timetable
+  transitionToScene: actions.scene.END_CONVERSATION
+- intent: stop
+  transitionToScene: actions.scene.END_CONVERSATION
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        suggestions:
+        - title: 시간표
+        - title: 종료
+  webhookHandler: backtime

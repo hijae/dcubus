@@ -1,0 +1,5 @@
+handlers:
+- name: gotime
+- name: backtime
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment

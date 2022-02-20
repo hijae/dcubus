@@ -1,0 +1,8 @@
+handler:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: 죄송해요. 여전히 이해하지 못했어요. 앱이 종료되었어요. 나중에 다시 시도해 주세요.
+transitionToScene: actions.scene.END_CONVERSATION

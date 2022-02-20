@@ -1,0 +1,15 @@
+intentEvents:
+- intent: go
+  transitionToScene: goschool
+- intent: back
+  transitionToScene: gohome
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: 등교, 하교중에 선택해주세요.
+        suggestions:
+        - title: 등교
+        - title: 하교
