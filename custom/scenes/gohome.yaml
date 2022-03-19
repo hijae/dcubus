@@ -5,7 +5,7 @@ intentEvents:
       - promptResponse:
           firstSimple:
             variants:
-            - speech: 16:00, 16:15, 16:30, 16:45, 17:00, 17:15, 17:30, 19:00, 21:00
+            - speech: 16:00, 16:15, 16:30, 16:45, 17:00, 17:15, 17:30, 19:00, 21:00, 22:00
   intent: timetable
   transitionToScene: actions.scene.END_CONVERSATION
 - intent: stop
