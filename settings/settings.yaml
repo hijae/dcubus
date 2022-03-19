@@ -10,6 +10,7 @@ localizedSettings:
     대구가톨릭대학교 안심역 스쿨 버스의 시간을 알려줍니다.
     등교 시간과 하교 시간을 지원하고 가장 가까운 버스를 알려줍니다.
     (2022.2 기준)
+    ( 대가대 , 대구가대 , 대구가톨릭대학교 )
   privacyPolicyUrl: https://sites.google.com/view/dcubuspp
   pronunciation: 대구가대 안심역 버스
   sampleInvocations:
