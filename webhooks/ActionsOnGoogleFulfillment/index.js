@@ -83,7 +83,7 @@ app.handle('gotime', conv => {
   if (text == "stop") {
     text = "오늘은 안심역 등교버스 운행이 종료되었습니다.";
   }
-  if (text == "weekend") {
+  else if (text == "weekend") {
     text = "주말에는 등교버스 운행을 하지 않습니다.";
   }
   else {
@@ -161,7 +161,7 @@ app.handle('backtime', conv => {
   if (text == "stop") {
     text = "오늘 하교버스 운행이 종료되었습니다.";
   }
-  if (text == "weekend") {
+  else if (text == "weekend") {
     text = "주말에는 하교버스 운행을 하지 않습니다.";
   }
   else {
