@@ -135,24 +135,24 @@ app.handle('backtime', conv => {
     }
     else {
       text = "오후 7:00";
-      left = (17 - hour) * 60 + 60 - minute;
+      left = (19 - hour) * 60 - minute;
     }
   }
   else if (hour == 18) {
     text = "오후 7:00";
-    left = (19 - hour) * 60 + 60 - minute;
+    left = (19 - hour) * 60 - minute;
   }
   else if (hour == 19) {
     text = "오후 09:00";
-    left = (21 - hour) * 60 + 60 - minute;
+    left = (21 - hour) * 60 - minute;
   }
   else if (hour == 20) {
     text = "오후 09:00";
-    left = (21 - hour) * 60 + 60 - minute;
+    left = (21 - hour) * 60 - minute;
   }
   else if (hour == 21) {
     text = "오후 10:00";
-    left = (22 - hour) * 60 + 60 - minute;
+    left = (22 - hour) * 60 - minute;
   }
   else {
     text = "stop";
